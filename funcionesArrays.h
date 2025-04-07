@@ -21,7 +21,8 @@ void imprimirArray(int arr[],int size){
     }
     cout<<endl;
 }
-void llenarArray(int arr[],int size){
+void llenarArray(int arr[]){
+    int size=sizeof(arr)/sizeof(arr[0]);
     for (int i = 0; i <size ; i++)
     {
         cout<<"ingrese el dato"<<i+1<<endl;
