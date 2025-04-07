@@ -4,12 +4,12 @@ using namespace std;
 int main(){
     char input[11];
     string hola="hola";
-    char hi[6]={'h','o','l','a','s,''};
+    char hi[6]={'h','o','l','a','s','\0'};
     char h[]="hola";
     for(int i=0;i<5;i++){
         cout<<hi[i];
     }
-    cout<<endln;
+    cout<<endl;
 
     cout<<hola<<endl;
     cout<<hi<<endl;
