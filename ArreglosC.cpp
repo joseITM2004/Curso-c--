@@ -4,7 +4,7 @@ using namespace std;
 int main(){
     char input[11];
     string hola="hola";
-    char hi[5]={'h','o','l','a','\0'};
+    char hi[5]={'h','o','l','a','s,'\0'};
     char h[]="hola";
     cout<<hola[5]<<endl;
 
