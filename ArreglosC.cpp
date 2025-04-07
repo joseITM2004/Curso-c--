@@ -6,7 +6,10 @@ int main(){
     string hola="hola";
     char hi[5]={'h','o','l','a','s,'\0'};
     char h[]="hola";
-    cout<<hola[5]<<endl;
+    for(int i=0;i<5;i++){
+        cout<<hi[i];
+    }
+    cout<<endln;
 
     cout<<hola<<endl;
     cout<<hi<<endl;
