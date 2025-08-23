@@ -52,3 +52,28 @@ void imprimirArreglo(int arr[], int size)
         cout << arr[i] << endl;
     }
 }
+void sacarMenorMayor(int arr[], int size)
+{
+    int menor = 9999;
+    int mayor = 0;
+    int posM = 0, posmenor = 0;
+    ;
+    for (int i = 0; i < size; i++)
+    {
+        if (arr[i] < menor)
+        {
+            menor = arr[i];
+            posmenor = i;
+        }
+        if (arr[i] > mayor)
+        {
+            mayor = arr[i];
+            posM = i;
+        }
+    }
+    cout << "Valor menor del arreglo " << menor << endl;
+    cout << "Posicion de este " << posmenor << endl;
+    cout << "Valor mayor del arreglo " << mayor << endl;
+    cout << "Posicion de este " << posM << endl;
+    system("pause");
+}
